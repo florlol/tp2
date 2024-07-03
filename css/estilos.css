@@ -1,0 +1,51 @@
+/*CSS INDEX*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0px;
+    background-color: #ffe7f7;
+}
+
+p, label{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1, h2{
+    font-family: 'Lato', sans-serif;  
+    font-weight: 700;
+}
+
+.rowCar{
+    padding-top: 58px;
+}
+
+#Sobre, #Figuras, #Mangas, #Contacto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Figuras h2, #Mangas h2, .Desc{
+    padding-left: 30px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+#Contacto h2, #Contacto p{
+    text-align: center;
+}
+
+#Contacto label {
+    font-weight: bold;
+}
+
+form {
+    margin: auto;
+}
